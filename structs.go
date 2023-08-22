@@ -1579,6 +1579,7 @@ type AuditLogEntry struct {
 	ActionType *AuditLogAction   `json:"action_type"`
 	Options    *AuditLogOptions  `json:"options"`
 	Reason     string            `json:"reason"`
+	GuildID    string            `json:"guild_id"`
 }
 
 // AuditLogChange for an AuditLogEntry
